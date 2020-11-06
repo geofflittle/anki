@@ -5,7 +5,10 @@ import sys
 import genanki
 import yaml
 
-cloze_regex = re.compile(r"^(?:\w+|{{c\d+::\w+}})(?: (?:\w+|{{c\d+::\w+}}))+$")
+# TODO: Breakdown this regex
+words = r"[\w %]+"
+cloze = r"{{c\d+::" + words + "}}"
+cloze_regex = re.compile(r"^(?:\w+|{{c\d+::[\w' %]+}})(?:(?: |, |'s | \(|-| \")(?:\w+|{{c\d+::[\w' %]+}}))+(?:\)|\")?\.?$")
 
 
 def write_deck_to_file(path):
@@ -26,7 +29,7 @@ def write_deck_to_file(path):
             if note_id in seen:
                 sys.exit("duplicate id {} found".format(note_id))
             if not cloze_regex.match(note_cloze):
-                sys.exit("note '{}' doesn't match expected format".format(note_cloze))
+                sys.exit("note id {} with cloze '{}' doesn't match expected format".format(note_id, note_cloze))
             print(note_data)
             note = genanki.Note(
                 guid=genanki.guid_for(note_id),
