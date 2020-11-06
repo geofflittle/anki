@@ -1,0 +1,8 @@
+---
+- id: 0
+  cloze: "{{c1::This}} {{c2::is}} a {{c3::test}} {{c1::cloze}} {{c4::new}} {{c5::newnew}} {{c6::newasdnew}}"
+- id: 1
+  cloze: "{{c1::This}} {{c2::is}} another {{c4::different}} {{c3::test}} {{c1::cloze}}"
+- id: 2
+  cloze: "{{c1::This}} {{c2::is}} an additional {{c2::test}}"
+...

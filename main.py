@@ -1,16 +1,44 @@
-# This is a sample Python script.
+import os
+import re
+import sys
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+import genanki
+import yaml
+
+cloze_regex = re.compile(r"^(?:\w+|{{c\d+::\w+}})(?: (?:\w+|{{c\d+::\w+}}))+$")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+def write_deck_to_file(path):
+    basename = os.path.basename(path)
+    name = os.path.splitext(basename)[0]
+    deck_name = name.replace("_", " ").title()
+    deck = genanki.Deck(
+        hash(deck_name),
+        deck_name
+    )
+    with open(path) as f:
+        notes = yaml.load(f, Loader=yaml.FullLoader)
+        seen = set()
+        for note_data in notes:
+            note_id = note_data["id"]
+            note_cloze = note_data["cloze"]
+            if note_id in seen:
+                sys.exit("duplicate id {} found".format(note_id))
+            if not cloze_regex.match(note_cloze):
+                sys.exit("note '{}' doesn't match expected format".format(note_cloze))
+            print(note_data)
+            note = genanki.Note(
+                guid=genanki.guid_for(note_id),
+                fields=[note_cloze],
+                model=genanki.CLOZE_MODEL
+            )
+            deck.add_note(note)
+            seen.add(note_id)
+    genanki.Package(deck).write_to_file("{}.apkg".format(name))
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+if __name__ == "__main__":
+    deck_yamls = ["private_pilot_license.yml"]
+    for deck_yaml in deck_yamls:
+        write_deck_to_file(os.path.abspath(deck_yaml))
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
