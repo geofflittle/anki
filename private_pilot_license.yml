@@ -1,8 +1,139 @@
 ---
-- id: 0
-  cloze: "{{c1::This}} {{c2::is}} a {{c3::test}} {{c1::cloze}} {{c4::new}} {{c5::newnew}} {{c6::newasdnew}}"
 - id: 1
-  cloze: "{{c1::This}} {{c2::is}} another {{c4::different}} {{c3::test}} {{c1::cloze}}"
+  cloze: "The {{c1::atmosphere}} is composed of {{c2::78%}} {{c3::nitrogen}}."
+  tags: ["theme_Atmosphere", "text_Phak", "chapter_4", "section_AtmosphereStructure"]
 - id: 2
-  cloze: "{{c1::This}} {{c2::is}} an additional {{c2::test}}"
+  cloze: "The {{c1::atmosphere}} is composed of {{c2::21%}} {{c3::oxygen}}."
+  tags: ["theme_Atmosphere", "text_Phak", "chapter_4", "section_AtmosphereStructure"]
+- id: 3
+  cloze: "The {{c1::atmosphere}} is composed of {{c2::1%}} {{c3::argon}}, {{c4::carbon dioxide}}, {{c5::neon}}, and {{c6::other gases}}."
+  tags: ["theme_Atmosphere", "text_Phak", "chapter_4", "section_AtmosphereStructure"]
+- id: 4
+  cloze: "The {{c1::atmosphere}}'s {{c2::lowest}} layer is the {{c3::troposphere}}."
+  tags: ["theme_Atmosphere", "text_Phak", "chapter_4", "section_AtmosphereStructure"]
+- id: 5
+  cloze: "{{c1::75%}} of the {{c2::atmosphere}}'s {{c3::mass}} is contained in the {{c4::troposphere}}."
+  tags: ["theme_Atmosphere", "text_Phak", "chapter_4", "section_AtmosphereStructure"]
+- id: 6
+  cloze: "{{c5::99%}} of the {{c2::atmosphere}}'s {{c3::water vapour}} and {{c4::aerosols}} are contained in the {{c5::troposphere}}."
+  tags: ["theme_Fluids", "text_Phak", "chapter_4", "section_AtmosphereStructure"]
+- id: 7
+  cloze: "{{c1::Fluids}} {{c2::don't}} {{c3::resist}} {{c4::deformation}}."
+  tags: ["theme_Fluids", "text_Phak", "chapter_4", "section_AirIsaFluid"]
+- id: 8
+  cloze: "{{c1::Fluids}} can {{c2::deform}} ({{c3::flow}})."
+  tags: ["theme_Fluids", "text_Phak", "chapter_4", "section_AirIsaFluid"]
+- id: 9
+  cloze: "{{c1::high}}-{{c2::viscosity}} {{c3::fluids}} are ""{{c4::thick}}""."
+  tags: ["theme_Viscosity", "text_Phak", "chapter_4", "section_Viscosity"]
+- id: 10
+  cloze: "{{c1::low}}-{{c2::viscosity}} {{c3::fluids}} are ""{{c4::thin}}""."
+  tags: ["theme_Viscosity", "text_Phak", "chapter_4", "section_Viscosity"]
+- id: 11
+  cloze: "{{c1::Air}} has a {{c2::low}} {{c3::viscosity}}."
+  tags: ["theme_Viscosity", "text_Phak", "chapter_4", "section_Viscosity"]
+- id: 12
+  cloze: "{{c1::Objects}} that {{c2::slide}} against each other experience {{c3::friction}}."
+  tags: ["theme_Friction", "text_Phak", "chapter_4", "section_Friction"]
+- id: 13
+  cloze: "There are five types of friction, {{c1::dry}} friction, {{c2::fluid}} friction, {{c3::lubricated}} friction, {{c4::skin}} friction, and {{c5::internal}} friction."
+  tags: ["theme_Friction", "text_Phak", "chapter_4", "section_Friction"]
+- id: 14
+  cloze: "In physics a {{c1::boundary layer}} is a {{c2::layer of liquid}} in contact with a {{c3::surface}} where the {{c4::effects of viscosity}} are {{c5::felt}}."
+  tags: ["theme_BoundaryLayer", "text_Phak", "chapter_4", "section_Friction"]
+- id: 15
+  cloze: "The air around the wing can be divided into two parts, the air {{c1::inside}} and the air {{c2::outside}} the {{c3::boundary layer}}."
+  tags: ["theme_BoundaryLayer", "text_Phak", "chapter_4", "section_Friction"]
+- id: 16
+  cloze: "The air inside a wing's {{c4::boundary layer}} is {{c5::dominated}} by {{c6::viscosity}} and creates the {{c7::majority}} of {{c8::drag}}."
+  tags: ["theme_BoundaryLayer", "text_Phak", "chapter_4", "section_Friction"]
+- id: 17
+  cloze: "{{c1::Pressure}} is the {{c2::force}} applied {{c3::perpendicular}} to an object's {{c4::surface}}."
+  tags: ["theme_Pressure", "text_Phak", "chapter_4", "section_Pressure"]
+- id: 18
+  cloze: "An {{c1::object}} {{c2::surrounded}} by a {{c3::fluid}} will {{c4::move}} towards {{c5::lowest}} {{c6::pressure}}."
+  tags: ["theme_Pressure", "text_Phak", "chapter_4", "section_Pressure"]
+- id: 19
+  cloze: "{{c1::Atmospheric pressure}} is the {{c2::pressure}} within the {{c3::atmosphere}}."
+  tags: ["theme_Atmosphere", "theme_Pressure", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 20
+  cloze: "{{c1:Weather}} is directly impacted by {{c2::atmospheric}} {{c3::pressure}}."
+  tags: ["theme_Atmosphere", "theme_Pressure", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 21
+  cloze: "{{c1::Atmospheric}} {{c2::pressure}} helps {{c3::lift}} an {{c4::aircraft}}."
+  tags: ["theme_Atmosphere", "theme_Pressure", "theme_Lift", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 22
+  cloze: "{{c1::Atmospheric pressure}} actuates important flight instruments like the {{c2::altimeter}}, {{c3::airspeed indicator}}, {{c4::vertical speed indicator}}, and {{c5::manifold pressure gauge}}."
+  tags: ["theme_Atmosphere", "theme_Pressure", "theme_Instruments", "theme_Lift", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 23
+  cloze: "{{c1::Standard}} {{c2::sea-level}} {{c3::pressure}} is {{c4::29.92"" Hg}}."
+  tags: ["theme_Pressure", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 24
+  cloze: "{{c1::Standard}} {{c2::sea-level}} {{c3::temperature}} is {{c4::59° F}}."
+  tags: ["theme_Temperature", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 25
+  cloze: "{{c1::Standard}} {{c2::pressure}} at {{c3::18k ft}} is {{c4::14.94"" Hg}}."
+  tags: ["theme_Pressure", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 26
+  cloze: "{{c1::Standard}} {{c2::temperature}} at {{c3::18k ft}} is {{c4::-5° F}}."
+  tags: ["theme_Temperature", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 27
+  cloze: "{{c1::Standard}} {{c2::pressure}} at {{c3::36k ft}} is {{c4::6.71"" Hg}}."
+  tags: ["theme_Pressure", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 28
+  cloze: "{{c1::Standard}} {{c2::temperature}} at {{c3::36k ft}} is {{c4::-69° F}}."
+  tags: ["theme_Temperature", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 29
+  cloze: "The {{c1:standard temperature lapse rate}} from {{c2::sea level}} to {{c3::36k ft}} is {{c4::3.5° F}} per {{c5::1k ft}}."
+  tags: ["theme_Temperature", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 30
+  cloze: "The {{c1::standard temperature}} from {{c2::36k ft}} to {{c3::65.5k ft}} is constant at {{c4::-69.7° F}}."
+  tags: ["theme_Temperature", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 31
+  cloze: "The {{c1:standard pressure lapse rate}} from {{c2::sea level}} to {{c3::10k ft}} is {{c4::1"" Hg}} per {{c5::1k ft}}."
+  tags: ["theme_Pressure", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
+- id: 32
+  cloze: "The {{c1::standard datum plane (SDP)}} is a theoretical place where the {{c2::atmospheric pressure}} is {{c3::29.92"" Hg}}."
+  tags: ["theme_Atmosphere", "theme_Pressure", "theme_Isa", "text_Phak", "chapter_4", "section_PressureAltitude"]
+- id: 33
+  cloze: "{{c1::Pressure altitude}} is the {{c2::altitude}} {{c3::above}} the {{c4::standard datum plane (SDP)}}."
+  tags: ["theme_Pressure", "theme_Altitude", "theme_Isa", "text_Phak", "chapter_4", "section_PressureAltitude"]
+- id: 34
+  cloze: "{{c1::Pressure altitude}} is determined by setting the {{c2::altimeter}}'s {{c3::barometric scale}} to {{c4::29.92"" Hg}} and reading the {{c5::indicated altitude}}."
+  tags: ["theme_Pressure", "theme_Altitude", "theme_Isa", "text_Phak", "chapter_4", "section_PressureAltitude"]
+- id: 35
+  cloze: "{{c1::Density altitude}} is the {{c2::altitude}} {{c3::above}} {{c3::sea level}} in the {{c4::standard atmosphere}} at which a {{c5::given density}} is {{c6::to be found}}."
+  tags: ["theme_Density", "theme_Altitude", "theme_Isa", "text_Phak", "chapter_4", "section_DensityAltitude"]
+
+  {{c1::Less dense}} {{c2::air}} causes the {{c3::engine}} to {{c4::take in less air}}, {{c5::reducing}} {{c6::power}}.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  {{c1::Less dence}} {{c2::air}} causes the {{c3::propeller}} to {{c4::be less efficient}}, {{c5::reducing}} {{c6::thrust}}.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  {{c1::Less dence}} {{c2::air}} causes the {{c3::airfoils}} to {{c4::be less efficient}}, {{c5::reducing}} {{c6::lift}}.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  {{c1::Density altitude}} is {{c2::pressure altitude}} corrected for {{c3::nonstandard temperature}}.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  {{c1::Low}} {{c2::density altitude}} provides {{c3::increased}} {{c4::aircraft performance}}.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  {{c1::High}} {{c2::density altitude}} provides {{c3::decreased}} {{c4::aircraft performance}}.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  {{c1::High}} {{c2::density altitude}} refers to {{c3::thin}} {{c4::air}}.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  {{c1::Low}} {{c2::density altitude}} refers to {{c3::thick}} {{c4::air}}.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  Conditions that result in {{c1::high}} {{c2::density altitude}} include {{c3::high}} {{c4::elevation}}, {{c5::low}} {{c6::atmospheric pressure}}, {{c7::high}} {{c8::temperature}}, {{c9::high}} {{c10::humidity}}, or some combination.		chapter_4 section_DensityAltitude text_phak theme_atmosphere
+
+  {{c1::Pressure}} = {{c2::Density}} x {{c3::Temperature}}		chapter_4 section_DensityEffects text_phak theme_atmosphere
+
+  {{c1::Water}} {{c2::vapour}} is {{c3::lighter}} than {{c4::air}}.		chapter_4 section_DensityEffects text_phak theme_atmosphere
+
+  As the {{c1::air's}} {{c2::water content}} {{c3::increases}}, {{c4::density altitude}} {{c5::increases}}, ultimately {{c6::decreasing}} {{c7::aircraft performance}}.		chapter_4 section_DensityEffects text_phak theme_atmosphere
+
+  {{c1::Relative humidity}} is the percentage of how much {{c2::water vapour}} the {{c3::air}} can hold at a given {{c4::temperature}} and {{c5::pressure}}.		chapter_4 section_DensityEffects text_phak theme_atmosphere
+
+  {{c1::Fluids}} {{c2::take on}} the {{c3::shape}} of their {{c4::container}}.		chapter_4 section_AirIsaFluid text_phak theme_fluids
+
+  {{c1::Viscosity}} is the measure of a {{c2::fluid's}} {{c3::resistance}} to {{c4::deformation}} at a {{c5::given rate}}.		chapter_4 section_Viscosity text_phak theme_fluids
+
+
 ...

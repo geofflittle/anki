@@ -22,6 +22,7 @@ def write_deck_to_file(path):
         for note_data in notes:
             note_id = note_data["id"]
             note_cloze = note_data["cloze"]
+            note_tags = note_data["tags"]
             if note_id in seen:
                 sys.exit("duplicate id {} found".format(note_id))
             if not cloze_regex.match(note_cloze):
@@ -30,6 +31,7 @@ def write_deck_to_file(path):
             note = genanki.Note(
                 guid=genanki.guid_for(note_id),
                 fields=[note_cloze],
+                tags=note_tags,
                 model=genanki.CLOZE_MODEL
             )
             deck.add_note(note)
