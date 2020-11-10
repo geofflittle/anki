@@ -91,13 +91,13 @@
   cloze: "{{c1::Standard}} {{c2::temperature}} at {{c3::36k ft}} is {{c4::-69° F}}."
   tags: ["theme_Temperature", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
 - id: 29
-  cloze: "The {{c1:standard temperature lapse rate}} from {{c2::sea level}} to {{c3::36k ft}} is {{c4::3.5° F}} per {{c5::1k ft}}."
+  cloze: "The {{c1::standard temperature lapse rate}} from {{c2::sea level}} to {{c3::36k ft}} is {{c4::3.5° F}} per {{c5::1k ft}}."
   tags: ["theme_Temperature", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
 - id: 30
   cloze: "The {{c1::standard temperature}} from {{c2::36k ft}} to {{c3::65.5k ft}} is constant at {{c4::-69.7° F}}."
   tags: ["theme_Temperature", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
 - id: 31
-  cloze: "The {{c1:standard pressure lapse rate}} from {{c2::sea level}} to {{c3::10k ft}} is {{c4::1\" Hg}} per {{c5::1k ft}}."
+  cloze: "The {{c1::standard pressure lapse rate}} from {{c2::sea level}} to {{c3::10k ft}} is {{c4::1\" Hg}} per {{c5::1k ft}}."
   tags: ["theme_Pressure", "theme_Isa", "text_Phak", "chapter_4", "section_AtmosphericPressure"]
 - id: 32
   cloze: "The {{c1::standard datum plane (SDP)}} is a theoretical place where the {{c2::atmospheric pressure}} is {{c3::29.92\" Hg}}."
@@ -124,7 +124,7 @@
   cloze: "{{c1::Density altitude}} is {{c2::pressure altitude}} corrected for {{c3::nonstandard temperature}}."
   tags: ["theme_Density", "theme_Pressure", "theme_Altitude", "theme_Isa", "theme_Temperature", "text_Phak", "chapter_4", "section_DensityAltitude"]
 - id: 40
-  close: "{{c1::Low}} {{c2::density}} {{c3::altitude}} provides {{c4::increased}} {{c5::aircraft performance}}."
+  cloze: "{{c1::Low}} {{c2::density}} {{c3::altitude}} provides {{c4::increased}} {{c5::aircraft performance}}."
   tags: ["theme_Density", "theme_Altitude", "theme_Performance", "text_Phak", "chapter_4", "section_DensityAltitude"]
 - id: 41
   cloze: "{{c1::High}} {{c2::density}} {{c3::altitude}} provides {{c4::decreased}} {{c5::aircraft performance}}."
@@ -154,7 +154,7 @@
   cloze: "{{c1::Water}} {{c2::vapour}} is {{c3::lighter}} than {{c4::air}}."
   tags: ["theme_Vapour", "theme_Air", "text_Phak", "chapter_4", "section_DensityEffects"]
 - id: 50
-  cloze: "{{c1::Relative humidity}} is the ratio between {{c2:actual vapour pressure}} to the {{c3::saturation vapour pressure}}."
+  cloze: "{{c1::Relative humidity}} is the ratio between {{c2::actual vapour pressure}} to the {{c3::saturation vapour pressure}}."
   tags: ["theme_Vapour", "theme_Air", "text_Phak", "chapter_4", "section_DensityEffects"]
 - id: 51
   cloze: "{{c1::Saturation vapour pressure}} is the {{c2::vapour pressure}} of {{c3::air}} when the number of {{c4::water molecules}} {{c5::condensing}} equals the number {{c6::evaporating}} at some {{c7::temperature}}."

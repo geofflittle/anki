@@ -5,11 +5,9 @@ import sys
 import genanki
 import yaml
 
-# TODO: Breakdown this regex
-words = r"[\w %]+"
-cloze = r"{{c\d+::" + words + "}}"
-cloze_regex = re.compile(r"^(?:\w+|{{c\d+::[\w' %]+}})(?:(?: |, |'s | \(|-| \")(?:\w+|{{c\d+::[\w' %]+}}))+(?:\)|\")?\.?$")
-
+not_cloze = r"[^{}:]*?"
+cloze = r"{{c\d+::" + not_cloze + "}}"
+cloze_note_regex = re.compile(r"^" + not_cloze + cloze + not_cloze + "(?:" + cloze + not_cloze + ")+$")
 
 def write_deck_to_file(path):
     basename = os.path.basename(path)
@@ -28,7 +26,7 @@ def write_deck_to_file(path):
             note_tags = note_data["tags"]
             if note_id in seen:
                 sys.exit("duplicate id {} found".format(note_id))
-            if not cloze_regex.match(note_cloze):
+            if not cloze_note_regex.match(note_cloze):
                 sys.exit("note id {} with cloze '{}' doesn't match expected format".format(note_id, note_cloze))
             print(note_data)
             note = genanki.Note(
