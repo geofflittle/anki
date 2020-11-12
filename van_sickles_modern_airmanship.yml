@@ -1,50 +1,50 @@
 ---
-text_title: Van Sickle's Modern Airmanship
-chapters:
-  - chapter_number: 1
-    chapter_title: Aircraft and aviation
+title: Van Sickle's Modern Airmanship
+sections:
+  - title: Aircraft and aviation
     notes:
-      # TODO: Add notes re: the Wright brother's
-      - The Wright brother's first powered flight lasted 12 seconds.
-      - The Wright brother's first powered flight traveled 120 feet.
+      # TODO: Add notes re: the Wright brothers
+      - "The {{c1::Wright brother's}} first powered flight lasted {{c2::12 seconds}}."
+      - "The {{c1::Wright brother's}} first powered flight traveled {{c2::120 feet}}."
     sections:
-      - section_title: Categories of aircraft
+      - title: Categories of aircraft
         notes:
           - >-
-            The Federal Aviation Regulations (FAR) divide civil aircraft into four categories: lighter-than-air,
-            gliders, rotorcraft, and airplanes.
-          - The civil aircraft category lighter-than-air is composed of balloons and airships.
-          - The civil aircraft category gliders is composed of unpowered airplanes.
-          - The civil aircraft category rotorcraft is composed of autogiros, helicopters, and powered lift.
-        subsections:
-          - subsection_title: Lighter than air
+            The {{c1::Federal Aviation Regulations (FAR)}} divide {{c2::civil aircraft}} into four categories:
+            {{c3::lighter-than-air}}, {{c4::gliders}}, {{c5::rotorcraft}}, and {{c6::airplanes}}.
+          - "{{c1::Balloons}} and {{c2::airships}} are categorized as {{c3::\"lighter-than-air\"}} {{c4::civil aircraft}}."
+          - "{{c1::Unpowered airplanes}} are categrozied as {{c2::\"glider\"}} {{c3::civil aircraft}}."
+          - >-
+            {{c1::Autogiros}}, {{c2::helicopters}}, and {{c3::powered lift}} are categorized as {{c4::rotorcraft}}
+            {{c5::civil aircraft}}.
+        sections:
+          - title: Lighter than air
             notes:
-              - Hot-air balloons are used for sporting events and sightseeing.
-              - Hot-air balloons use propane burners as a heat source.
-              - Hot-air balloon propane burners fill the envelope with hot gases.
-              - Hot-air balloons are buoyant because hot gases fill the envelope.
-              - Hot-air balloon pilots vary propane burn for alitutde control.
-              - Hot-air balloons go where the wind takes them.
-              - Hot-air balloons have high fuel consumption.
-              - Hot-air balloons have little use as transportation.
-          - subsection_title: Gliders
+              - >-
+                {{c1::Hot-air balloons}} use {{c2::propane burners}} to fill their {{c3::envelope}} with {{c4::hot
+                gases}} which generates {{c5::lift}}.
+              - Varying a {{c1::hot-air balloon}}'s {{c2::propance burn}} controls its {{c3::altitude}}.
+              - "{{c1::Hot-air balloons}} have {{c2::high}} {{c3::fuel consumption}}."
+          - title: Gliders
             notes:
-              - Gliders are extremely efficient unpowered aircraft.
-              - Glider pilots try to find thermals or other types of "vertical wind" to climb.
-              - Unpowered soaring gliders have achieved altitudes near 50k ft.
-              - Unpowered soaring gliders have achieved distances exceeding 1.3k mi.
-          - subsection_title: Rotorcraft
+              - "{{c1::Gliders}} are efficient {{c2::unpowered}} aircraft."
+              - "{{c1::Gliders}} use {{c2::thermals}} and other types of {{c2::\"vertical wind\"}} to {{c3::climb}}."
+              - "{{c1::Gliders}} have achieved altitudes near {{c2::50k ft}}."
+              - "{{c1::Gliders}} have achieved distances exceeding {{c2::1.3k mi}}."
+          - title: Rotorcraft
             notes:
-              - Rotorcraft use a rotating wing to generate lift.
-              - Rotorcraft operate without the need of a runway.
-              - Powered lift aircraft achieve vertical flight by varying the incidence of two propellers.
-              - Powered lift aircraft behave like fixed-wing in forward flight.
-          - subsection_title: Airplanes
+              - "{{c1::Rotorcraft}} use a {{c2::rotating wing}} to {{c3::generate lift}}."
+              - "{{c1::Rotorcraft}} operate without the need of a {{c2::runway}}."
+              - "{{c1::Powered lift}} aircraft achieve vertical flight by varying the incidence of two propellers."
+              - "{{c1::Powered lift}} aircraft behave like a {{c2::fixed-wing}} aicraft when in {{c3::forward flight}}."
+          - title: Airplanes
             notes:
-              - Airplanes use fixed airfoils for lift.
-              - Airplanes use internal combustion to produce thrust.
-              - "Airplanes are grouped into three major classes: air transport, military, and general aviation"
-            subsubsections:
-              - subsubsection_title: Air transport
+              - "{{c1::Airplanes}} use {{c2::fixed}} {{c3::airfoils}} for {{c4::lift}}."
+              - "{{c1::Airplanes}} use {{c2::internal combustion}} to produce {{c3::thrust}}."
+              - >-
+                {{c1::Airplanes}} are grouped into three major classes: {{c2::air transport}}, {{c3::military}}, and
+                {{c4::general aviation}}.
+            sections:
+              - title: Air transport
                 notes:
                   -
