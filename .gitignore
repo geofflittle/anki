@@ -1,3 +1,5 @@
+.DS_Store
+.apkg
 .idea
+dist
 venv
-private_pilot_license.apkg

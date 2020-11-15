@@ -1,0 +1,19 @@
+---
+title: Test Text 1
+notes:
+  - "top-level {{c1::n}}ote"
+  - "second top-level {{c1::n}}ote"
+sections:
+  - title: First Section
+    notes:
+      - "fist section {{c1::n}}ote"
+      - "another note in {{c1::first}} section"
+  - title: Second Section
+    notes:
+      - "note in second {{c1::sectidddon}}"
+      - "two two note in {{c1::first}} section"
+    sections:
+      - title: Second's First Section
+        notes:
+          - "note {{c1::in}} second's first section"
+          - "two ooooooohhh {{c1::first}} section"
